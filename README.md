@@ -34,14 +34,11 @@ Logical circuit of the above expressions is given below:
 
 Figure 02  Encoder 8 * 3
 
-**Procedure**
-
-/* write all the steps invloved */
 
 **PROGRAM**
 
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
-
+```
 module exp_5(din,a,b.c);
 
 input[0:7] din;
@@ -55,7 +52,7 @@ assign b=(din[2]| din[3]| din[6 ]| din[7]);
 assign c=(din[1]| din[3]| din[5 ]| din[7]);
 
 endmodule
-
+```
 
 Developed by:Srilakshmi.B.H.
 RegisterNumber:24900035
